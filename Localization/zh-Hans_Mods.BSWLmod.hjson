@@ -1,0 +1,927 @@
+CommonItemtooltip: {
+	BaseXP: 将应用的基础经验值: {0}
+	RuneUse:
+		'''
+		使用方法:在快捷栏中拿着武器，然后右键符文
+		成功后，符文将被消耗
+		'''
+	OrbUse:
+		'''
+		使用方法:在快捷栏中拿着武器，然后右键宝珠
+		成功后，宝珠将被消耗
+		武器必须已经能够获得经验值才能使用此宝珠
+		'''
+	BaseXPHint: 基础经验是从0级达到等级1所需的经验值，这个数字也用于计算达到所有其他等级所需的经验值
+	EtherealRune: 使任何稀有度的武器都能获得经验值并升级
+	XPOrb: 立即给予武器一些经验值
+	WithdrawOrb: 立即从武器中扣除经验值
+	DormantOrb:
+		'''
+		能够被制作成经验宝珠
+		经验宝珠用于立即授予您的武器经验值
+		'''
+	LvlStat: 等级: {0}
+	PlayerLvlStat: 玩家等级: {0}
+	XPStat: XP: {0} ({1} to next level)
+	PlayerXPStat: 玩家 XP: {0} (到下一等级需要 {1})
+	XPStat100: XP: {0}
+	PlayerXPStat100: 玩家 XP: {0}
+	DmgStat: 伤害提升: {0}
+	BaseXPStat: 基础经验值: {0}
+	NoLeveling:
+		'''
+		武器无法获得经验值或升级
+		你需要从获得经验符文开始
+		'''
+	ShiftView: 按住 shift 键可查看可用的符文
+	ViewRunes:
+		'''
+		可用符文：
+		{0} 或更好的
+		任何空灵经验符文
+		棱镜经验符文
+		机械经验符文
+		超频经验符文
+		不稳定的经验符文
+		'''
+	TargetGear: 所选装备: {0}
+	WeaponLevelUp: "{2} 升级了！ ({0} > {1})"
+	WeaponLevelUpDef: 武器升级！ ({0} > {1})
+	WeaponMaxOut: "{2} 达到最大等级！ ({0} > {1})"
+	WeaponmaxOutDef: 武器达到最大等级! ({0} > {1})
+	WeaponLevelUpPopup: 武器升级！
+	WeaponMaxOutPopup: 武器达到最大等级!
+	PlayerLevelUp: 你升级了！ ({0} > {1})
+	PlayerMaxOut: 你已达到最大等级! ({0} > {1})
+	PlayerLevelUpPopup: 你升级了！
+	PlayerMaxOutPopup: 你已达到最大等级！
+	Maxed: MAX
+	EX: EX
+}
+
+Items: {
+	BlueRune: {
+		DisplayName: 靛蓝空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于早期游戏武器，在克苏鲁之脑/世界吞噬者之前
+			'''
+	}
+
+	CyanRune: {
+		DisplayName: 青色空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于特别强大的花后或石巨人后武器，或者较弱的教徒后武器
+			'''
+	}
+
+	GreenRune: {
+		DisplayName: 绿色空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于困难模式前的中期武器
+			'''
+	}
+
+	LightPurpleRune: {
+		DisplayName: 发光紫罗兰空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于强大的困难模式初期或部分较弱的机械Boss后武器
+			'''
+	}
+
+	LightRedRune: {
+		DisplayName: 发光血红空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于大多数早期困难模式且在机械Boss前的武器
+			'''
+	}
+
+	LimeRune: {
+		DisplayName: 浅绿空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于机械Boss后武器
+			'''
+	}
+
+	OrangeRune: {
+		DisplayName: 橙色空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于困难模式前的后期武器
+			'''
+	}
+
+	PinkRune: {
+		DisplayName: 粉色空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于困难模式早期的强大武器，例如至少击败一个机械Boss获得的武器
+			'''
+	}
+
+	PurpleRune: {
+		DisplayName: 紫罗兰空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于模组的月前武器
+			'''
+	}
+
+	RedRune: {
+		DisplayName: 血红空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于邪教徒后武器
+			'''
+	}
+
+	WhiteRune: {
+		DisplayName: 纯白空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于较弱的大前期武器
+			'''
+	}
+
+	YellowRune: {
+		DisplayName: 金黄空灵经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于花后武器
+			'''
+	}
+
+	AbsorbingWithdrawl: {
+		DisplayName: 经验泵取宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			扣除大量 XP
+			'''
+	}
+
+	AbyssalWithdrawl: {
+		DisplayName: 深渊抽取宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			扣除海量 XP
+			'''
+	}
+
+	BigDormant: {
+		DisplayName: 大型休眠经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'这种大小的宝珠非常罕见'
+			'''
+	}
+
+	Dormant: {
+		DisplayName: 休眠经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'这种大小的宝珠有些罕见'
+			'''
+	}
+
+	DullXP: {
+		DisplayName: 平淡的经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			给予极少量 XP
+			'''
+	}
+
+	HugeDormant: {
+		DisplayName: 巨型休眠经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'这种大小的宝珠极为罕见'
+			'''
+	}
+
+	MysticXP: {
+		DisplayName: 神秘经验宝珠
+		Tooltip:
+			'''
+			直接给武器升一级
+			{$CommonItemtooltip.OrbUse}
+			'''
+	}
+
+	PowerfulXP: {
+		DisplayName: 强力经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			给予大量 XP
+			'''
+	}
+
+	RestrainedWithdrawl: {
+		DisplayName: 经验吸取宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			扣除少量 XP
+			'''
+	}
+
+	ShallowWithdrawl: {
+		DisplayName: 经验流失宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			扣除极少量的 XP
+			'''
+	}
+
+	ShinyDormant: {
+		DisplayName: 闪亮的休眠经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'这种特殊类型的宝珠非常罕见'
+			'''
+	}
+
+	SmallDormant: {
+		DisplayName: 小型休眠经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'这种大小的宝珠有点常见'
+			'''
+	}
+
+	SuperchargedXP: {
+		DisplayName: 过载经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			给予海量 XP
+			'''
+	}
+
+	TinyDormant: {
+		DisplayName: 微小的休眠经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.DormantOrb}
+			'这种大小的宝珠相当常见'
+			'''
+	}
+
+	VolatileWithdrawl: {
+		DisplayName: 经验蒸发宝珠
+		Tooltip:
+			'''
+			直接降低武器等级
+			{$CommonItemtooltip.OrbUse}
+			'''
+	}
+
+	WeakXP: {
+		DisplayName: 脆弱经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			给予少量 XP
+			'''
+	}
+
+	WithdrawlOrb: {
+		DisplayName: 经验抽取宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.WithdrawOrb}
+			{$CommonItemtooltip.OrbUse}
+			扣除中等数量的 XP
+			'''
+	}
+
+	Xp: {
+		DisplayName: 经验宝珠
+		Tooltip:
+			'''
+			{$CommonItemtooltip.XPOrb}
+			{$CommonItemtooltip.OrbUse}
+			给予中等数量的 XP
+			'''
+	}
+
+	BlankRune: {
+		DisplayName: 空白符文
+		Tooltip:
+			'''
+			禁用武器获得经验和升级的能力
+			禁用武器的升级不会抹去其获得的经验
+			禁用武器可以通过任何兼容的经验符文重新激活其获得经验值和升级的能力
+			禁用武器可以重新启用，即使使用的符文与最初启用它的符文不同
+			请注意，重新启用的武器最初会错误地计算其等级。这将在获得经验值时修复
+			'''
+	}
+
+	DormantEtherealRune: {
+		DisplayName: 休眠的空灵经验符文
+		Tooltip:
+			'''
+			制作成空灵经验符文
+			与普通经验符文不同，所有空灵经验符文都不需要额外的材料，并且可以在任何适用的武器上工作
+			对模组中的武器使用空灵经验符文
+			'如果您重视游戏平衡，请谨慎使用！'
+			'''
+	}
+
+	DormantRune: {
+		DisplayName: 休眠经验符文
+		Tooltip:
+			'''
+			用于制作经验符文
+			经验符文用于使您的武器获得经验值并升级
+			'''
+	}
+
+	MechanicalRune: {
+		DisplayName: 机械经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			这个符文的独特之处在于，它应用于武器的基础经验值可以在配置中修改
+			请注意，更改此符文应用的基础经验值也会影响它已经应用的所有武器
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	OverclockedRune: {
+		DisplayName: 超频经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			这个符文最适用于非常强大的月后或其他模组的武器
+			'''
+	}
+
+	PrismRune: {
+		DisplayName: 棱镜经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			这个符文的独特之处在于它应用于武器的基础经验取决于武器的稀有度
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	UnstableRune: {
+		DisplayName: 不稳定体验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			这个符文的独特之处在于它应用于武器的基础经验值是基于其计算的DPS
+			慎用这个符文，因为DPS计算很可能是不准确的！
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	BasicRune: {
+		DisplayName: 基础经验符文
+		Tooltip:
+			'''
+			启用稀有度为白色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	EerieRune: {
+		DisplayName: 怪诞经验符文
+		Tooltip:
+			'''
+			启用稀有度为黄色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	EnhancedRune: {
+		DisplayName: 增强经验符文
+		Tooltip:
+			'''
+			启用稀有度为蓝色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	HolyRune: {
+		DisplayName: 神圣经验符文
+		Tooltip:
+			'''
+			启用稀有度为粉色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	InfernalRune: {
+		DisplayName: 地狱经验符文
+		Tooltip:
+			'''
+			启用稀有度为橙色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	InfusedRune: {
+		DisplayName: 注魔经验符文
+		Tooltip:
+			'''
+			启用稀有度为亮紫色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	MoonRune: {
+		DisplayName: 月球经验符文
+		Tooltip:
+			'''
+			启用稀有度为红色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	PhantasmalRune: {
+		DisplayName: 幻影经验符文
+		Tooltip:
+			'''
+			{$CommonItemtooltip.EtherealRune}
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	TaintedRune: {
+		DisplayName: 污染经验符文
+		Tooltip:
+			'''
+			启用稀有度为绿色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	TwilightRune: {
+		DisplayName: 暮色经验符文
+		Tooltip:
+			'''
+			启用稀有度为亮红色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	VerdantRune: {
+		DisplayName: 葱茏经验符文
+		Tooltip:
+			'''
+			启用稀有度为浅绿色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	XenoRune: {
+		DisplayName: 异形经验符文
+		Tooltip:
+			'''
+			启用稀有度为青色或更低的武器来获得经验值并升级
+			{$CommonItemtooltip.RuneUse}
+			{$CommonItemtooltip.BaseXP}
+			{$CommonItemtooltip.BaseXPHint}
+			'''
+	}
+
+	ReflectionRune: {
+		DisplayName: 反射符文
+		Tooltip:
+			'''
+			'一件来历不明的神秘神器，揭示了内在的潜力'
+			要赋予你的武器升级的能力，请寻找一个由石头和宝石锻造的休眠经验符文
+			显示你的等级和经验;
+			placeholder (DON'T REMOVE)
+			'''
+	}
+
+	EffortRune: {
+		DisplayName: 挑战符文
+		Tooltip:
+			'''
+			装备后，你将行动不便并受到额外伤害
+			作为回报，武器在攻击时将获得额外的经验值
+			显示你的等级和经验;
+			placeholder (DON'T REMOVE)
+			'''
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: 修改
+
+		Headers: {
+			HeaderDMG: "[i:674] 伤害平衡 [i:674]"
+			HeaderXP: "[i:BSWLmod/PrismRune] XP 倍率 [i:BSWLmod/PrismRune]"
+			HeaderCaps: "[i:BSWLmod/OverclockedRune] 统计上限 [i:BSWLmod/OverclockedRune]"
+			HeaderText: "[i:171] 文本显示 [i:171]"
+			HeaderEtc: "[i:BSWLmod/ShinyDormant] 其他 [i:BSWLmod/ShinyDormant]"
+		}
+
+		dmgMultiplier: {
+			Label: "[i:BSWLmod/UnstableRune] 伤害提升倍数"
+			Tooltip:
+				'''
+				调整武器等级造成的伤害提升的威力。
+				默认情况下，到100级，此提升以指数方式增长到 x3 。
+				此乘数应用以下公式: ((基础伤害提升 - 1) * 乘数) + 1.
+				将此配置设置得更低会降低升级带来的伤害提升，设置得更高会增加升级加成。
+				将此项设置为 0 可完全禁用武器等级带来的伤害提升。
+				'''
+		}
+
+		playerDamage: {
+			Label: "[i:2349] 伤害提升倍数 (玩家等级)"
+			Tooltip:
+				'''
+				调整玩家等级造成的伤害提升的威力。
+				默认情况下，从 10 级开始到100级，此提升以指数方式增长至 x1.4。
+				此乘数应用以下公式: ((基础伤害提升 - 1) * 乘数) + 1.
+				将此配置设置得更低会降低升级带来的伤害提升，设置得更高会增加升级加成。
+				将此项设置为 0 可完全禁用玩家等级带来的伤害提升。
+				'''
+		}
+
+		xpGain: {
+			Label: "[i:BSWLmod/BasicRune] 武器获得 XP"
+			Tooltip:
+				'''
+				武器是否可以通过造成伤害获得经验值。
+				武器对大多数敌人造成的伤害将获得武器经验值。武器最终会随着获得经验值而升级。
+				请注意，即使开启此设置，您也需要启用单个武器的能力，才能在游戏中使用经验符文获得经验值。
+				设置为 关 时，所有武器将停止获得XP，直到重新打开此配置。
+				'''
+		}
+
+		playerXP: {
+			Label: "[i:267] 玩家获得 XP"
+			Tooltip:
+				'''
+				切换玩家是否可以通过造成伤害获得经验值。
+				与武器不同，玩家的经验值增益始终等于造成的伤害，玩家获得经验的能力完全取决于此设置。
+				此外，玩家升级的可定制性要低得多，达到 100 级所需的经验远远超过您在通关中获得的经验平均值
+				作为参考，您可以期望在击败月亮领主后达到 45-50 级（2.8-5.1 M经验值）。 
+				100级需要高达100亿的经验值。不要指望通过常规手段达到这个目的......
+				设置为 关 时，所有玩家将停止获得 XP，直到重新打开此配置。
+				'''
+		}
+
+		xpMultiplier: {
+			Label: "[i:BSWLmod/EnhancedRune] XP 乘数"
+			Tooltip:
+				'''
+				调整所有武器获得的经验值。
+				作为参考，基础经验为 1000 的武器需要 600K XP 才能达到 100 级;专家模式通关产生大约~3M+经验值，直到月亮领主。
+				因此，将武器训练到 100 级需要花费很多小时。
+				这是一段很长的时间，假设武器使用稳定，武器会随着你的进步而逐渐升级。
+				将此配置设置得更高将使武器升级得更快，而将其设置得更低将使武器升级得更慢。
+				'''
+		}
+
+		bossXP: {
+			Label: "[i:43] Boss XP 乘数"
+			Tooltip:
+				'''
+				调整当Boss或小Boss处于活动状态时所有武器获得的经验值。
+				默认情况下，Boss给予的经验值比普通敌人少，以使力量升级的效果降低。
+				当Boss在场时，将此配置设置得更低会进一步降低经验值，而将其设置得更高会导致Boss的存在比平时获得更多的经验值。
+				'''
+		}
+
+		wormXP: {
+			Label: "[i:556] 蠕虫 XP 乘数"
+			Tooltip:
+				'''
+				调整攻击蠕虫时所有武器获得的经验值。
+				默认情况下，蠕虫提供的经验值比正常情况少，因为它们的HP由于其多段性质而通常很高。
+				将此配置设置得更低将进一步降低蠕虫的 XP，将其设置得更高将使蠕虫的 XP 更接近正常数量。
+				'''
+		}
+
+		orbMultiplier: {
+			Label: "[i:BSWLmod/SuperchargedXP] 经验宝珠乘数"
+			Tooltip:
+				'''
+				调整使用经验宝珠时武器获得/损失的经验值。
+				经验宝珠是很少掉落的物品，可以制作成可用的形式，可以立即向武器授予或扣除经验值。
+				作为参考，默认情况下，需要大约 60 个最强的宝珠，或者大约 6,000 个最弱的宝珠才能使武器从 0 级达到 100 级。
+				将此配置设置得更低将减少宝珠对经验的修改，将其设置得更高将增加宝珠对经验的修改。
+				请注意，此配置不会影响神秘经验宝珠或经验蒸发宝珠的效力，因为它们的作用是基于等级的
+				'''
+		}
+
+		effortMultiplier: {
+			Label: "[i:BSWLmod/EffortRune] 挑战符文乘数"
+			Tooltip:
+				'''
+				调整加成倍数的效力，以调整由挑战符文获得的武器经验值。
+				默认情况下，挑战符文装备时将随机应用x1.1至x1.25倍数来获得武器经验值
+				此配置将缩放该乘数的奖励（例如：将其设置为 x1.5 将导致 x1.15 到 x1.375 奖励）
+				将此配置设置得更低会减少挑战符文的加成，而设置得更高会增加加成
+				'''
+		}
+
+		customBaseXP: {
+			Label: "[i:BSWLmod/MechanicalRune] 自定义基础经验"
+			Tooltip:
+				'''
+				调整机械经验符文给予武器的基础经验值。
+				基础经验是从等级 0 达到等级 1 所需的经验值，该数字又用于计算达到所有其他等级所需的经验值。
+				供参考：
+				白色稀有度对应的基础经验值为 1000.
+				亮红色稀有度对应的基础经验值为 10000.
+				黄色稀有度对应的基础经验值为 55000.
+				红色稀有度对应的基础经验值为 100000.
+				最高的基础经验值可能为 3250000.
+				通常，通过将基础经验设置为武器 DPS 的 ~10-20 倍，可以实现均衡的长期练级。
+				推荐测试DPS，以确保使用适合进度的倍率以获得最佳结果。
+				'''
+		}
+
+		levelCap: {
+			Label: "[i:BSWLmod/MysticXP] 等级上限"
+			Tooltip:
+				'''
+				调整武器可以达到的最大等级。
+				武器的等级取决于其经验值，更改此值不会降低武器经验值。但是，它会降低武器的伤害提升。
+				拥有足够经验值的武器在提升上限后会恢复到可能的最高等级。
+				请注意，如果上限设置为低于 100，则级别永远不会在最大级别显示为“EX”。
+				另请注意，武器的等级只有在造成伤害后才会更新，在等级刷新之前，经验值到下一个等级可能会出现错误（负数）。
+				'''
+		}
+
+		xpCap: {
+			Label: "[i:BSWLmod/OverclockedRune] 经验上限"
+			Tooltip:
+				'''
+				调整武器经验可以拥有的最大数量。
+				经验等于或超过上限的武器将停止获得更多经验。
+				如果武器的经验值在降低经验上限时超过上限，则其经验值（以及等级）不会改变。
+				请注意，如果上限低于 20 亿（代码上限），则 XP 永远不会显示为“MAX”或高于最大 XP。
+				'''
+		}
+
+		dmgCap: {
+			Label: "[i:2349] 基础伤害提升上限"
+			Tooltip:
+				'''
+				调整武器升级可获得的最大伤害提升。
+				此伤害提升取决于等级，更改此值不会降低武器等级。
+				等级足够高的武器在提升此值后会简单地恢复尽可能高的伤害提升。
+				此值受伤害提升倍数的影响（例如：如果伤害提升乘数为 x2，则 x1.5 上限变为 x3 上限）。
+				更改此值不会改变等级增加伤害的速度（例如：无论上限如何，x1.4 伤害始终在 31 级时达到）。
+				请注意，如果上限设置为低于 2.5，伤害提升将永远不会显示为“MAX”。
+				'''
+		}
+
+		coloredDisplays: {
+			Label: "[i:2870] 彩色文本显示"
+			Tooltip:
+				'''
+				切换大多数文本显示是否应着色。
+				大多数文本着色是动态的，并且基于显示的统计信息的值。
+				设置为 关 时，文本显示将保持纯白色，就像大多数其他统计信息一样。
+				'''
+		}
+
+		showBaseXP: {
+			Label: "[i:BSWLmod/BasicRune] 基础经验值显示"
+			Tooltip:
+				'''
+				武器基础经验值的显示
+				基础经验是从等级 0 达到等级 1 所需的经验值，该数字又用于计算达到所有其他等级所需的经验值。
+				此显示可以帮助比较不同武器升级的速度
+				设置为 开 时，基础经验将显示在 XP 下方（或者显示伤害提升，如果那开启了的话）。
+				'''
+		}
+
+		showDMG: {
+			Label: "[i:2349] 伤害提升显示"
+			Tooltip:
+				'''
+				武器等级带来的伤害提升的显示。
+				设置为 开 时，强化将在 XP 下方显示为乘数，四舍五入到小数点后 2 位（例如：“伤害提升：x1.78”）。
+				请注意，如果禁用伤害提升（既将“伤害提升倍数”设置为 x0），此设置将不起作用。
+				也适用于反射符文的玩家属性显示。
+				'''
+		}
+
+		showLvl100: {
+			Label: "[i:BSWLmod/MysticXP] 最大等级显示"
+			Tooltip:
+				'''
+				可显示的最大级别 （100）。
+				设置为 开 时，级别 100 将显示为“级别：100”。
+				设置为 关（默认值）时，级别 100 显示为“级别：EX”。
+				也适用于反射符文的玩家属性显示。
+				'''
+		}
+
+		showMaxXP: {
+			Label: "[i:BSWLmod/OverclockedRune] 最大经验显示"
+			Tooltip:
+				'''
+				可显示的最大经验值（20 亿。XP 在这里有上限以避免超出 32 位整数限制）。
+				设置为 开 时，最大 XP 显示为“XP： 2000000000”。
+				当设置为 关（默认值）时，最大 XP 显示为“XP： MAX”。
+				也适用于反射符文的玩家属性显示。
+				'''
+		}
+
+		showMaxDMG: {
+			Label: "[i:1338] 最大伤害提升显示"
+			Tooltip:
+				'''
+				当等级为 100 时是否显示伤害提升为MAX
+				设置为 关 时，伤害提升将显示为“伤害提升：MAX”。
+				'''
+		}
+
+		showDisabledLeveling: {
+			Label: "[i:3617] “禁用升级”的提示反馈"
+			Tooltip:
+				'''
+				“尚无法升级武器” 提示。
+				设置为 关 时，将不会显示此提示。
+				'''
+		}
+
+		detailedDisabledLeveling: {
+			Label: "[i:903] “禁用升级”的详细提示反馈"
+			Tooltip:
+				'''
+				“尚无法升级武器” 提示是否更详细。
+				设置为 开 时，提示将变得更长，并且可以说明哪些经验符文将起作用。
+				'''
+		}
+
+		dropOrbs: {
+			Label: "[i:BSWLmod/Dormant] 掉落经验宝珠"
+			Tooltip:
+				'''
+				敌人是否可以掉落经验宝珠。
+				经验宝珠是很少掉落的物品，可以制作成可用的形式，可以立即向武器授予或扣除经验值。
+				设置为 关 时，经验宝珠将停止掉落。
+				'''
+		}
+
+		lvlUpSound: {
+			Label: "[i:890] 升级时的声音反馈"
+			Tooltip:
+				'''
+				武器升级时是有音频反馈。
+				如果启用了玩家升级，玩家升级也会触发反馈。
+				设置为 关 时，升级将没有音频反馈。
+				'''
+		}
+
+		lvlUpText: {
+			Label: "[i:3617] 升级时的文字反馈"
+			Tooltip:
+				'''
+				武器升级时是有文字反馈。
+				如果启用了玩家升级，玩家升级也会触发反馈。
+				设置为 关 时，升级将没有文字反馈。
+				'''
+		}
+
+		augmentCrossmod: {
+			Label: "[i:398] 开启与 Weapon Augments 模组的联动"
+			Tooltip:
+				'''
+				当设置为 开 并加载 Weapon Augments 时，武器的等级将比正常情况贡献更小的伤害提升。
+				作为回报，等级 25、50、75 和 100 将分别为武器提供一个额外的增强槽，100级时最大为5个。
+				请注意，如果 Weapon Augments 的增强限制设置与此不符;使用两个值中较高的值。
+				'''
+		}
+
+		xpDust: {
+			Label: "[i:1348] XP 粒子"
+			Tooltip:
+				'''
+				调整通过攻击敌人获得经验而产生的粒子的数量和规模
+				这纯粹是一种视觉效果，可以在不影响游戏玩法的情况下进行调整
+				将此配置设置得更低使得粒子更小更少;如果您遇到性能问题，这会很有帮助
+				将此配置设置为 0 将禁止 XP 相关的粒子生成
+				'''
+		}
+
+		eventXP: {
+			Label: "[i:361] 事件 XP 乘数"
+			Tooltip:
+				'''
+				调整事件激活时武器获得的经验值。
+				默认情况下，事件会降低获得的 XP，以使快速升级的效率降低。
+				如果事件期间还有Boss/小Boss在场，则与Boss XP 乘数部分堆叠;
+				这是通过将多个变量相加（作为小数）然后除以 3（而不是平均值为 2）来完成的。
+				注意：在旧日军团事件期间会应用额外的 x0.5 乘数。
+				此外，这个乘数在月球事件中只有 75% 的有效率（总体经验值更多）。
+				将此配置设置得更低将进一步降低事件期间的经验值，将其设置得越高，将获得更接近正常经验值。
+				'''
+		}
+	}
+}
